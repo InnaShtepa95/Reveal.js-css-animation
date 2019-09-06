@@ -1,0 +1,69 @@
+Arguments: 
+  /home/inna/.nvm/versions/node/v12.8.0/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/inna/.vscode-server/bin/3db7e09f3b61f915d03bbfa58e258d6eee843f35/bin:/home/inna/.nvm/versions/node/v12.8.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath_target_78890218:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/c/Ruby25-x64/bin:/mnt/c/Users/INNA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/INNA/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/inna/.cache/yarn/v4/npm-grunt-legacy-util-1.1.1-e10624e7c86034e5b870c8a8616743f0a0845e42/node_modules/grunt-legacy-util/test/fixtures/exec.sh' -> '/mnt/e/Workspace/reveal.js/node_modules/grunt-legacy-util/test/fixtures/exec.sh'
+
+npm manifest: 
+  {
+    "name": "reveal.js",
+    "version": "3.8.0",
+    "description": "The HTML Presentation Framework",
+    "homepage": "http://revealjs.com",
+    "subdomain": "revealjs",
+    "main": "js/reveal.js",
+    "scripts": {
+      "test": "grunt test",
+      "start": "grunt serve",
+      "build": "grunt"
+    },
+    "author": {
+      "name": "Hakim El Hattab",
+      "email": "hakim.elhattab@gmail.com",
+      "web": "http://hakim.se"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/hakimel/reveal.js.git"
+    },
+    "engines": {
+      "node": ">=9.0.0"
+    },
+    "devDependencies": {
+      "express": "^4.16.2",
+      "grunt": "^1.0.4",
+      "grunt-cli": "^1.3.2",
+      "grunt-autoprefixer": "^3.0.4",
+      "grunt-contrib-connect": "^2.0.0",
+      "grunt-contrib-cssmin": "^3.0.0",
+      "grunt-contrib-jshint": "^2.0.0",
+      "grunt-contrib-qunit": "^3.1.0",
+      "grunt-contrib-uglify": "^3.3.0",
+      "grunt-contrib-watch": "^1.1.0",
+      "grunt-sass": "^3.0.2",
+      "grunt-zip": "~0.17.1",
+      "load-grunt-tasks": "^4.0.0",
+      "node-sass": "^4.11.0",
+      "mustache": "^2.3.0",
+      "socket.io": "^2.2.0"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
